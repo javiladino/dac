@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Diana Arciniegas Cruz / Conceptrice Pédagogique - MakerEd & STEAM">
+    <meta name="robots" content="index,follow">
+
+    <title>Diana Arciniegas Cruz | Conceptrice Pédagogique - MakerEd & STEAM </title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon_dac.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/LogoDac_360.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Á propos de moi</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Compétences</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formation</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Projets</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contact</a>
+
+            <!-- Idiomas de la página 
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div>-->
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home"  src="./assets/images/diana6.png" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Bonjour! Je suis</p>
+                    <p class="home_text-2">Diana Arciniegas Cruz</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Conceptrice Pédagogique</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Concepteur pédagogique - Graphiste et titulaire d'un Master en Sciences de l'éducation et de la formation - Didactique professionnelle. Je suis passionnée par l'éducation et la créativité, et j'aime travailler avec les enfants pour les aider à développer leur imagination et leurs compétences.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="http://www.dianaarciniegascruz.com/docs/cv_diana_arciniegas_cruz_2023.pdf" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Télécharger CV</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contact</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/dianaarciniegascruz/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+
+                <a href="https://www.instagram.com/dianaarciniegascruz/" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title">Á propos de moi</h1>
+            <br>
+            <div class="container_content-sobreMi">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Diana Arciniegas Cruz</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Je suis Conceptrice Pédagogique - Graphiste et titulaire d'un Master en Sciences de l'éducation et de la formation - Didactique professionnelle.
+
+                        Je suis passionnée par <strong style="color:#fadad8";>l'éducation et la créativité</strong>, et j'aime travailler avec les enfants pour les aider à développer leur imagination et leurs compétences. Mon expertise réside dans la création d'ateliers avec la <strong style="color:#fadad8";>méthodologie STEAM</strong>, où les enfants peuvent apprendre la science, la technologie, l'ingénierie, l'art et les mathématiques d'une manière amusante et pratique.
+                        
+                        En outre, j'aime animer des <strong style="color:#fadad8";>ateliers de lettering et de calligraphie</strong>, où je peux partager mon amour de l'écriture et enseigner aux enfants les techniques nécessaires pour créer des lettres belles et personnalisées. Enfin, je suis également passionnée par la médiation en architecture et en urbanisme, où je peux aider les enfants à comprendre et à apprécier le monde construit qui les entoure.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi" data-aos="fade-right">
+                    <img class="image_sobreMi" src="./assets/images/3.jpg" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title">Compétences</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+    
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/adobe-photoshop-logo.png" alt="Icono de Photoshop">
+                    <p>Photoshop</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/adobe-Illustrator-logo-3-1.png" alt="Icono de Illustrator">
+                    <p>Illustrator</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/Adobe_InDesign_logo_PNG1.png" alt="Icono de InDesign">
+                    <p>InDesign</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/Procreate-icon.png" alt="Icono de Procreate">
+                    <p>Procreate</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/figma3.png" alt="Icono de Figma">
+                    <p>Figma</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/articulate_logo.png" alt="Icono de Articulate 360">
+                    <p>Articulate 360</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/matis_logo.png" alt="Icono de lettering">
+                    <p>Calligraphie et Lettering</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/design1.png" alt="Icono de Design Thinking">
+                    <p>Design Thinking</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-html.png" alt="Icono de HTML">
+                    <p>HTML 5</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-css.png" alt="Icono de CSS">
+                    <p>CSS 3</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title">Formation</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-one" width="100" src="./assets/images/logo_uninantes_02.png" alt="Logo - Université de Nantes">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Master en Sciences de l'éducation et de la formation</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2022</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="./assets/images/logo_platzi_02.webp" alt="Logo - Platzi">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Formation Continue, Technologie éducative / pédagogique</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2022 - 2023</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="./assets/images/logo_libertadores_02.png" alt="Logo - Universidad Los Libertadores">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Professionnelle en Design Graphique</p>
+                        <p>2008</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title">Projets</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/home_atelier_decidelart_01.jpg" alt="Proyecto: Atelier Deci de l'art">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Atelier Deci de l'art</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">Ateliers de médiation d'architecture pour les enfants.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://www.atelier-deci-delart.com/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">Voir le projet
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/home_solangelab_01.jpg" alt="Proyecto: Solange Lab">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Solange Lab</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">Ateliers de découverte avec la méthodologie STEAM pour activer les compétences et les talents de chaque enfant.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="http://www.solangelab.com" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">Voir le projet
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/home_matisstudio_01.jpg" alt="Proyecto: Encriptador">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Matis Studio</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Studio créatif de calligraphie et lettering basé à Nantes.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://www.matisstudio.com" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">Voir le projet
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title">Contacto</h1>
+            
+
+                <div class="container_content-sobreMi">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Vous avez besoin d’une personne passionnée pour apporter une valeur ajoutée à votre projet ? Parlons-en !</p>
+                    </div>
+                    <div class="container_button">
+                        <a href="mailto:dac@dianaarciniegascruz.com" target="_blank">
+                            <button class="cv_button" data-section="home" data-value="cv_button">dac@dianaarciniegascruz.com</button>
+                        </a>
+                    </div>
+                </div>
+  
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/dianaarciniegascruz/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/dianaarciniegascruz/" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram"">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | Coded with</span>
+                <img src="./assets/images/icon-corazon.png" alt="Corazón">
+                <span>by</span>
+                <span>Diana Arciniegas Cruz</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+</html>
